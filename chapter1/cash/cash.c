@@ -7,6 +7,7 @@
  *
  */
 
+ #include <math.h>
  #include <stdio.h>
 
  int main(void)
@@ -19,12 +20,15 @@
     }
     while()
 
+    // Round to remove any flotaing point impercisions
+    int cents = round(dollars * 100);
+
     // Initialize a coins counter to 0
 
     // Determine the number of quarters needed
-    while(change >= .25)
+    while(cents >= 25)
     {
-        // Subtract .25 from change
+        // Subtract 25 from change
 
         // Update the coins counter by 1
     }
