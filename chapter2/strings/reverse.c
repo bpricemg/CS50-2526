@@ -14,7 +14,7 @@
     // Start the output
     printf("Reverse: ");
 
-    // Loop through each char in word
+    // Loop through each char in word, starting from the last char
     for (int i = strlen(word) - 1; i >= 0; i--)
     {
         printf("%c", word[i]);
