@@ -4,7 +4,7 @@
 
  #include <cs50.h>
  #include <stdio.h>
- #include <string.h>
+ #include <strings.h>
 
  int main(void)
  {
@@ -17,7 +17,7 @@
     string name = get_string("Name: ");
     for (int i = 0; i < 7; i++)
     {
-        if (strcmp(names[i], name) == 0)
+        if (strcasecmp(names[i], name) == 0)
         {
             printf("Found\n%s\n", numbers[i]);
             return 0;
