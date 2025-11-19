@@ -58,6 +58,14 @@ int main(int argc, string argv[])
         }
     }
 
+    // DEBUGGING TOOL - DELETE BEFORE SUBMITTING
+    // Print the candidates array to make sure vote is working
+    printf("\nName\tVotes\n");
+    for (int i = 0; i < candidate_count; i++)
+    {
+                printf("%s\t%i\n", candidates[i].name, candidates[i].votes);
+    }
+
     // Display winner of election
     print_winner();
 }
