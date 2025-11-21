@@ -81,6 +81,17 @@ int main(int argc, string argv[])
         printf("\n");
     }
 
+    // DEBUGGING TOOL - REMOVE BEFORE SUBMITTING
+    // Print out the prefences array
+    for (int i = 0; i < candidate_count; i++)
+    {
+        for(int j = 0; j < voter_count; j++)
+        {
+            printf("%i\t", preferences[i][j]);
+        }
+        printf("\n");
+    }
+
     // Keep holding runoffs until winner exists
     while (true)
     {
@@ -126,7 +137,11 @@ int main(int argc, string argv[])
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {
-    // TODO
+    // Search for name in candidates
+        // If found
+            // Record that index into preferences[voter][rank]
+            // Return true
+    // Return false since the vote did not record
     return false;
 }
 
