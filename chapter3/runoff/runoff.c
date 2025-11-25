@@ -83,9 +83,9 @@ int main(int argc, string argv[])
 
     // DEBUGGING TOOL - REMOVE BEFORE SUBMITTING
     // Print out the prefences array
-    for (int i = 0; i < candidate_count; i++)
+    for (int i = 0; i < voter_count; i++)
     {
-        for(int j = 0; j < voter_count; j++)
+        for(int j = 0; j < candidate_count; j++)
         {
             printf("%i\t", preferences[i][j]);
         }
