@@ -10,8 +10,8 @@ int main(int argc, char* argv[])
         return 1;
     }
 
-    // Open up the source file
-    FILE *source = ???;
+    // Open up the source file, located at argv[1]
+    FILE *source = fopen(argv[1],"r");
     // If cannot open
     if (???)
     {
@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
         return 2;
     }
 
-    // Now open up the destination file
+    // Now open up the destination file, located at argv[2]
     FILE *dest = ???;
     // If cannot open
     if (???)
@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
     for (???)
     {
         // Write the character to the destination file!
-        // Hint* you will need to find a function that will print/put a character in the destination file. 
+        // Hint* you will need to find a function that will print/put a character in the destination file.
         ???
     }
 
