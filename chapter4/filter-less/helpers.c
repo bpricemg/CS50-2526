@@ -77,7 +77,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
                 {
                     // IF that the pixel is actually on the pixel array
                     // (make sure row and col aren't negative and row not bigger than
-                    // width - 1 and col not bigger than height - 1)
+                    // height - 1 and col not bigger than width - 1)
                     if ()
                     {
                         // Update a count for the denominator of the average
