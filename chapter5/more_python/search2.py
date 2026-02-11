@@ -7,7 +7,7 @@ s = get_string("Name: ")
 
 # Search for the name
 for name in names:
-    if name.upper() == s.upper():
+    if name.upper().strip() == s.upper().strip():
         print("Found")
         exit(0)
 
