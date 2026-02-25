@@ -19,4 +19,4 @@ for person in people:
         exit(0)
 
 print("Not found")
-exit(1          )
+exit(1)
