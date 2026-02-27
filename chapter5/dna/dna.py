@@ -36,11 +36,11 @@ def main():
 
     # TODO: Check database for matching profiles
     # For each person in people
-        # Assume we found the person until we find a mismatch
+        # Start a fresh counter
         # For str in strs
             # Check if a match
-            # If not a match, break
-        # If we don't break, then we found a match
+                # Increase counter by 1
+        # If the counter equals the number of strs, then we found a match
     # Otherwise Otherwise, not found
 
     return
