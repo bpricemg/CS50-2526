@@ -41,7 +41,7 @@ def main():
             # Check if a match
                 # Increase counter by 1
         # If the counter equals the number of strs, then we found a match
-    # Otherwise Otherwise, not found
+    # Otherwise, not found
 
     return
 
